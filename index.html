@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coverter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CURRENCY CONVERTER</h1>
+      <div class="border"></div>
+      <div class="Form-Contanier">
+        <div class="Main">
+          <form action="">
+            <label for="">Amount to Convert:</label>
+            <input
+              id="screen"
+              placeholder="ENTER THE AMOUNT"
+              class="Display"
+              type="text"
+            />
+            <div class="Mid-Selectors">
+              <div class="From-Selector">
+                <input class="Mid-Btn" type="button" value="From" />
+                <input
+                  class="Input-Box"
+                  id="From-Rupi"
+                  type="text"
+                  value=""
+                  placeholder="RUPEES/US"
+                />
+              </div>
+              <div class="To-Selector">
+                <input class="Mid-Btn" type="button" value="To" />
+                <input
+                  class="Input-Box"
+                  id="To-Dolar"
+                  type="text"
+                  placeholder="US/RUPEES"
+                  value=""
+                />
+              </div>
+            </div>
+            <div class="Buttons">
+              <input
+                id="CnBtn"
+                class="CN-button"
+                type="button"
+                value="Convert"
+              />
+              <input class="button" id="RestBtn" type="button" value="Rest" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <h4>Converted Amount: <span id="Result"></span></h4>
+      <marquee class="Slider"
+        >This Converter is Just for from Rupee To Dolar and from Dolar To Rupee
+        THANKS!
+        <div class="Border"></div>
+      </marquee>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

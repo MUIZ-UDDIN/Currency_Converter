@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  background: url(./pexels-pixabay-210600.jpg);
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 460px) {
+  body {
+    background-size: auto;
+  }
+}
+.container {
+  margin: auto;
+}
+.Display {
+  padding: 0 10px;
+  margin: 8px 0 0 0;
+}
+.Input-Box {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 10px;
+}
+.Input-Box::placeholder,
+.Display::placeholder {
+  color: rgb(78, 75, 75);
+}
+label {
+  font-size: 20px;
+  color: white;
+}
+input {
+  height: 1.7pc;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+h1 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+.border {
+  display: flex;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 40%;
+  border: 2px solid rgba(255, 247, 247, 0.4);
+}
+.Form-Contanier {
+  height: 10pc;
+  display: flex;
+  margin: auto;
+}
+.Form-Contanier .Main {
+  margin: auto;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.Display {
+  width: 100%;
+}
+.Main .Mid-Selectors {
+  display: flex;
+  margin: 10px 0;
+}
+.Main .Mid-Selectors .From-Selector {
+  display: flex;
+  margin-right: 10px;
+}
+.Main .Mid-Selectors .To-Selector {
+  display: flex;
+}
+.Main .Mid-Selectors .Mid-Selector {
+  border-top-right-radius: 4px;
+  border: none;
+  outline: none;
+  width: 10pc;
+  cursor: pointer;
+  border-bottom-right-radius: 4px;
+}
+.Mid-Btn {
+  border-top-right-radius: 0;
+  padding: 5px 10px;
+  border-bottom-right-radius: 0;
+}
+.Buttons {
+  display: flex;
+  justify-content: center;
+}
+.Buttons input {
+  padding: 2% 10% 5% 10%;
+  cursor: pointer;
+}
+.Buttons input:hover {
+  background-color: rgba(253, 253, 253, 0.8);
+}
+.Buttons .CN-button {
+  margin: 0 10px 0 0;
+}
+h4 {
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+.Slider {
+  font-size: 20px;
+  color: white;
+  margin-top: 4pc;
+  font-weight: bold;
+}
+.Border {
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 98%;
+  display: flex;
+  margin: 10px auto;
+}
